@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MiladQuiz</string>
+    <string name="action_settings">Settings</string>
+    <string name="username">Please Enter Your Username</string>
+    <string name="password">Please Enter Your Password</string>
+    <string name="title_activity_quiz_question">QuizQuestionActivity</string>
+    <string name="waiting_message">Please wait while we get you to the next question..</string>
+</resources>
