@@ -10,7 +10,20 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="saiflimited.com.quiz.MainActivity"
+
     tools:showIn="@layout/activity_main">
+
+
+    <!--<ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:layout_centerVertical="true"
+        android:alpha="0.2"
+        android:adjustViewBounds="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/splash" />-->
+
 
     <android.support.design.widget.TextInputLayout
         android:id="@+id/layout_username"
@@ -43,11 +56,12 @@
     </android.support.design.widget.TextInputLayout>
 
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="LOGIN"
         android:id="@+id/button"
+        android:textColor="#ffffff"
+        android:background="@drawable/custom_button"
         android:layout_centerVertical="true"
-        android:layout_alignEnd="@+id/layout_password"
-        android:layout_alignParentStart="true" />
+        />
 </RelativeLayout>
